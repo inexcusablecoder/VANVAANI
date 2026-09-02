@@ -1,0 +1,17 @@
+{
+  "name": "vanvaani-backend",
+  "version": "1.0.0",
+  "description": "VANVAANI Backend API Gateway & PostgreSQL Sync Server (SIH26042)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5"
+  }
+}
