@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary-terracotta: #E07A5F;
   --primary-terracotta-dark: #C85A32;
